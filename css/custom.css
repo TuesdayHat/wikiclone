@@ -1,3 +1,7 @@
+body{
+  background-color: #f5faff;
+}
+
 .portals{
   float: right;
   color: blue;
@@ -8,9 +12,23 @@
   text-align: center;
 }
 
+.jumbotron{
+
+}
+
+.container{
+  margin-left: 220px;
+  margin-right: 0px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid lightblue;
+  border-left: 1px solid lightblue;
+  border-right: 1px solid lightblue;
+}
+
 .sidebar{
   float: left;
-  background-color: #f5faff;
+  position: relative;
+  align: top;
 }
 
 .jumbotron p{
@@ -28,16 +46,22 @@
 }
 
 .column1{
+  position: relative;
   background-color: #ccffcc;
   border: 1px solid lightgreen;
   padding: 10px;
+  padding-right: 0px;
+  margin-right: 2px;
 
 }
 
 .column2{
+  position: relative;
   background-color: #ccffff;
   border: 1px solid #99ccff;
   padding: 10px;
+  padding-left: 0px;
+  margin-left: 2px;
 }
 
 .column1 .subheader {
