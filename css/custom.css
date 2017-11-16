@@ -10,6 +10,7 @@
 
 .sidebar{
   float: left;
+  background-color: #f5faff;
 }
 
 .jumbotron p{
@@ -20,4 +21,45 @@
 
 .nonlinks {
   color:black;
+}
+
+.col{
+  padding: 1px;
+}
+
+.column1{
+  background-color: #ccffcc;
+  border: 1px solid lightgreen;
+  padding: 10px;
+
+}
+
+.column2{
+  background-color: #ccffff;
+  border: 1px solid #99ccff;
+  padding: 10px;
+}
+
+.column1 .subheader {
+  border: 1px solid green;
+  padding:1px;
+  background: lightgreen;
+}
+
+.column2 .subheader {
+  border: 1px solid blue;
+  padding:1px;
+  background: #99ccff;
+}
+
+.feature{
+  float:left;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.colPicture{
+  float:right;
+  max-width: 100px;
+  max-height: 100px;
 }
