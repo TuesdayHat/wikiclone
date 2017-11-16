@@ -1,11 +1,23 @@
 .portals{
   float: right;
+  color: blue;
 }
 
 .header{
   float:left;
+  text-align: center;
 }
 
 .sidebar{
   float: left;
+}
+
+.jumbotron p{
+  font-size: 14px;
+  margin-bottom:2px;
+  color: blue;
+}
+
+.nonlinks {
+  color:black;
 }
